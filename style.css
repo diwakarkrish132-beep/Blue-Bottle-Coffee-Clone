@@ -1,0 +1,1192 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#ffffff;
+}
+
+/* Announcemnt Bar */
+.announcment{
+    background-color:#ffffff;
+    text-align:center;
+    padding: 8px 20px;
+    font-size:12px;
+}
+
+.announcment:hover{
+    background-color: #ffffff;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    min-height:84px;
+    width:100%; 
+    padding:0 80px;
+}
+.mobile-menu-toggle{
+    visibility:hidden;
+}
+/*Left Side Links */
+
+.menu-bar{
+    display:flex;
+    align-items:center;
+    gap:22px;
+    flex:1.3;
+}
+.menu-bar a {
+    color:#222;
+    text-decoration: none;
+    font-size:18px;
+    white-space:nowrap;
+}
+
+/* Center logo*/
+
+.bottle-icon img{
+    width:45px;
+    height:45px;
+    object-fit:contain;
+    display:block;
+}
+
+/* Right Side Links*/
+.menu-icon{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    gap:20px;
+    flex:1;    
+}
+.menu-icon svg{
+    height:24px;
+    width:24px;
+    stroke-width: 1.5;
+}
+
+/*Hero-section1*/
+
+.hero-section-img{
+    display:block;
+    height: 450px;
+    width:100%;
+    object-fit:cover;
+}
+.hero-section1{
+    padding: 30px 64px;
+    color:#000000;
+
+}
+.hero-section1 h1{
+    font-size:30px;
+    font-weight:normal;
+}
+
+.hero-section1 p{
+    font-size:16px;
+    line-height:1.6;
+    margin-top:12px;
+}
+.shop-vinyl{
+    margin-top:24px;
+}
+.shop-vinyl a {
+    display: inline-block;
+    padding: 12px 25px;
+    border: 1px solid #222;
+    color: #222;
+    text-decoration: none;
+}
+
+/* NEW And TRENDING SECTION */
+
+#section1{
+    padding:50px 5%;
+}
+.new-and-trending-items{
+    display:flex;
+    gap:20px;
+}
+
+#item-limited-edi{
+    background-color:#1F5F8B;
+    color:#ffffff;
+    position:absolute;
+    top:0;
+    right:0;
+
+}
+
+.new-and-trending h2{
+    font-size:25px;
+    font-weight:normal;
+    letter-spacing:2px;
+    margin-top:25px;
+    margin-bottom:30px;
+}
+/* Each product gets an equal share of space */
+
+.item {
+    flex: 1;
+}
+
+.item-image{
+    width: 100%;
+    height: 260px;
+    position:relative;
+}
+.item img {
+    display: block;
+    width: 100%;
+    object-fit: contain;
+    background-color: #f5f5f5;
+}
+/* Product name on the left, price on the right */
+
+.item-first {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 60px;
+}
+
+.item-first #cut{
+    text-decoration:line-through;
+}
+
+.trending-add-to-cart{
+    border:none;
+    outline:none;
+    align-items:center;
+    text-align: center;
+    padding:20px 120px;
+    color:transparent;
+    background-color:#ffffff;
+    font-size:14px;
+}
+
+.trending-add-to-cart:hover{
+    color:#f6f3f6;
+    background-color:#222222;
+}
+.item-first h3 {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.item-first span {
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.item p {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.trending-button {
+    text-align: center;
+    margin-top: 35px;
+}
+.trending-button a {
+    display: inline-block;
+    width: 40%;
+    padding: 15px;
+    border: 1px solid #333;
+    color: #222;
+    text-decoration: none;
+}
+
+/* Hover effect for the shop button */
+.trending-button a:hover,
+.shop-vinyl a:hover {
+    background-color: #222;
+    color: white;
+}
+
+/*  MISO CARAMEL    */
+
+.miso-caramel{
+    display:flex;
+    align-items: center;
+    gap:50px;
+    padding:60px 5%;
+    background-color: #f6f3ed;
+}
+
+.miso-caramel-box1{
+    flex:1;
+}
+
+.miso-caramel-box1 h2{
+    font-size:22px;
+    font-weight:normal;
+    text-transform: uppercase;
+    margin-bottom:25px;
+}
+.miso-caramel-box1 p{
+    line-height: 1.4;
+    margin-bottom:35px;
+}
+
+.miso-caramel-box1 a,
+.fall-rituals a,
+.membership-content a {
+    display: inline-block;
+    padding: 20px 60px;
+    border: 1px solid #222;
+    text-decoration: none;
+    color: #222;
+}
+
+.miso-caramel-box1 a:hover,
+.fall-rituals a:hover,
+.membership-content a:hover{
+    background-color:#222;
+    color:#f6f3f6;
+}
+
+.miso-caramel-img{
+    width:60%;
+    height:100%;
+    object-fit: contain;
+}
+
+.miso-caramel-img img{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    aspect-ratio:5/4;
+
+}
+
+.section4 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 5%;
+}
+
+.section4 > img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio:5/4;
+}
+
+
+
+.fall-rituals h2 {
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.fall-rituals p {
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+/*  MEMBERSHIP  */
+
+.section6 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.section6 > img {
+    width: 100%;
+    max-height: 600px;
+    padding:0 10%;
+    object-fit: cover;
+    display: block;
+    aspect-ratio: 6/3;
+}
+
+.membership-content {
+    padding: 35px 20px;
+}
+
+.membership-content .eyebrow {
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.membership-content h2 {
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.membership-content p:not(.eyebrow) {
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.membership-content a:hover{
+    background-color: black;
+    color:white;
+}
+
+/* CUSTOMER REVIEWS Section */
+
+.customer-reviews{
+    padding:50px 5%;
+    text-align:center;
+    background-color:#F2F3F2;
+}
+.reviews-list{
+    display:flex;
+    gap:30px;
+    background-color: white;
+    justify-content: space-between;
+    /* padding:30px 50px; */
+    border:5px black ;
+}
+ul{
+    list-style: none;
+
+}
+.review-card{
+    background-color:white;
+}
+
+.reviews-heading h2{
+    padding-top:30px;
+    font-size:30px;
+    font-weight:normal;
+    margin-bottom:30px;
+}
+
+.reviews-list{
+    display:flex;
+    gap:20px;
+    background-color:#f6f3f6;
+    padding:30px 20px;
+    border:5px black ;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap:20px;
+}
+.review-card h3{
+    font-size: 20px;
+    font-weight:normal;
+    padding-top:20px
+}
+.review-body{
+    display:flex;
+    margin-top:50px;
+    
+}
+
+.review-body img{
+    height:100px;
+    width:150px;
+}
+.review-body p{
+    font-size:14px;
+    padding-top:25px;
+    
+}
+.review-footer{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:20px;
+    gap:10px;
+}
+
+.reviewer-name {
+    font-size: 12px;
+    gap:40px;
+}
+.verified{
+    font-size:12px;
+}
+time{
+    font-size:12px;
+}
+
+/* Footer Section */
+
+footer{
+    background-color:#333333;
+    color:white;
+    width:100%;
+    height:600px;
+}
+
+.footer-header{
+    display:flex;
+    justify-content: flex-start;
+    padding-left:50px;
+    padding-top:50px;
+    gap:10px;
+}
+.footer-header img{
+    height:30px;
+    width:30px;
+}
+
+.footer-header h3{
+    font-size:21px;
+    font-weight:normal;
+}
+
+.footer-container{
+    display:flex;
+    justify-content: space-between;
+    gap:40px;
+    padding-bottom:50px;
+    padding-top:50px;
+    padding-left:50px;
+}
+
+.footer-column{
+    flex:1;
+}
+.footer-column h3,
+.newsletter h3{
+    font-size:21px;
+    font-weight:normal;
+    letter-spacing:2px;
+    margin-bottom:20px;
+}
+
+.footer-column a{
+    display:block;
+    color:#ffffff;
+    text-decoration: none;
+    margin-bottom:14px;
+    font-size:14px;
+}
+
+.newsletter {
+    flex:1.5;
+}
+
+.newsletter p{
+    font-size:14px;
+    line-height:1.6;
+    color:#ffffff;
+}
+
+.email-box{
+    display: flex;
+    border-bottom: 1px solid #587d98;
+    margin-top: 25px;
+}
+
+.email-box input{
+
+    flex:1;
+    border:none;
+    outline:none;
+    background-color:#333333;
+    color:#f5f5f5;
+    padding:12px 0;
+}
+
+.email-box button{
+    border:none;
+    background:transparent;
+    color:white;
+    font-size:24px;
+    cursor:pointer;
+}
+
+.privacy{
+    display:block;
+    text-decoration:none;
+    margin-top:15px;
+    color:#f6f3f6;
+    font-size:21px;
+    letter-spacing:1px;
+}
+
+.social-links{
+    display:flex;
+    gap:25px;
+    margin-top:20px;
+}
+
+.social-links a{
+    text-decoration:none;
+    font-size:20px;
+    font-weight:bold;
+    color:#f6f3f6;
+}
+
+
+
+.footer-bottom{
+
+    margin-top:30px;
+    display:flex;
+    gap:125px;
+    padding-left:80px;
+    padding:10px 0;
+}
+
+.footer-bottom a{
+    text-decoration: none;
+    border:none;
+    color:#f6f3f6;
+}
+
+/* footer is done Now Do Responsiveness then done */
+/* Then Responsiveness */
+
+/* Desktop: 1024px+ */
+/* Above existing CSS is the baseline */
+
+
+/* Tablet: 768px–1023px */
+@media (min-width:768px) and (max-width:1023px){
+
+    body{
+        width:100%;
+        height:auto;
+        padding:0;
+        margin:0;
+    }
+
+    .announcment{
+        text-align:center;
+    }
+    .announcment p{
+        text-align:center;
+        font-size:12px;
+    }
+    .navbar{
+        font-size:24px;
+        padding-right:30px;
+    }
+    .mobile-menu-toggle{
+        position:relative;
+        right:40px;
+        visibility:visible;
+
+    }
+    .menu-bar{
+       visibility:hidden;
+    }
+    .bottle-icon{
+        position:relative;
+        right:300px;    
+    }
+    .menu-icon{
+        position:relative;
+        right:40px;
+
+    }
+    .hero-section-img{
+        display:block;
+        height: auto;
+        width:100%;
+        object-fit:cover;
+        aspect-ratio:5/3;  
+        z-index:1;
+    }
+    .hero-section{
+        width:100%;
+        height:auto;
+        display:flex;
+    }
+    .hero-section1 h1{
+        font-size:22px;
+        letter-spacing: 1px;
+    }
+    .hero-section a{
+        background-color:#222;
+        color:#f6f3f6;
+        width:50%;
+        height:auto;
+        text-align:center;
+
+    }
+    .new-and-trending{
+        width:100%;
+        height:auto;
+    }
+    .new-and-trending h2{
+        size:1;
+        font-weight:normal;
+    }
+    .new-and-trending-items{
+       display: flex;
+       gap: 20px;
+       overflow-x: auto;
+       width:100%;
+       height:auto;
+    }
+    .item-first{
+        margin:10px;
+    }
+    .trending-add-to-cart{
+        background-color:transparent;
+        color:white;
+        height:auto;
+    }
+    .trending-add-to-cart:hover{
+        background-color: navy;
+        color:white;
+    }
+
+    /* miso caramel for tablets*/
+    .miso-caramel{
+        width:100%;
+        height:auto;
+        display:flex;
+        flex-direction:column;
+        gap:0;
+    }
+    .miso-caramel-img{
+        order:-1;
+        width:100%;
+        height:auto;
+    }
+    .miso-caramel-img img{
+
+        display:block;
+        width:100%;
+        height:auto;
+        object-fit:cover;
+        border-radius:0;
+    }
+    .miso-caramel-box1{
+        width: 100%;
+        height:auto;
+        padding:40px 10px;
+        box-sizing: border-box;
+        text-align: left;
+    }
+    .miso-caramel-box1 h2 {
+        font-size: 1.5rem;
+        font-weight: 100;
+        margin: 0 0 16px;
+    }
+
+    .miso-caramel-box1 p {
+        font-size: 15px;
+        line-height: 1.4;
+        margin: 0 0 40px;
+    }
+    .miso-caramel-box1 a{
+        display:block;
+        font-size:15px;
+        width:50%;
+        height:auto;
+        text-align:center;
+
+    }
+    .section4{
+        width:100%;
+        height:auto;
+        display:flex;
+        flex-direction:column;
+        gap:0;
+    }
+    .section4 img{
+        display:block;
+        width:100%;
+        height:auto;
+        object-fit:cover;
+        aspect-ratio: 3/4;
+        border-radius: 0;
+    }
+    .fall-rituals{
+        width: 100%;
+        padding-top:50px;
+        box-sizing: border-box;
+        text-align: left;
+    }
+    .fall-rituals h2{
+        font-size: 1.5rem;
+        font-weight: normal;
+        letter-spacing: 0.12em;   
+        line-height: 1.2;
+        margin: 0 0 16px;
+    }
+    .fall-rituals p{
+        font-size: 1rem;
+        line-height: 1.4;
+        margin: 0 0 40px;
+    }
+    .fall-rituals a{
+        display:block;
+        font-size:15px;
+        width:50%;
+        height:auto;
+        text-align:center;
+    }
+    .section6{
+        width:100%;
+        height:auto;
+        display:flex;
+        flex-direction:column;
+        gap:0;
+        background-color: rgb(246 246 243);
+        padding:50px 75px;
+    }
+
+    .section6 img{
+        display:block;
+        width:100%;
+        height:auto;
+        object-fit:cover;
+        aspect-ratio:5/2;
+        border-radius: 0;
+        align-items:center;
+    }
+    .membership-content{
+        width: 100%;
+        /* padding: 40px 24px 48px; */
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .eyebrow p{
+        font-size: 50px;
+        line-height: 1.4;
+        margin-top:0;
+        text-align: left;
+    }
+    .membership-content h2{
+        font-size: 30px;
+        font-weight: 400;
+        letter-spacing: 0.12em;  
+        line-height: 1.2;
+        margin: 0 0 16px;
+    }
+
+    .membership-content p{
+        font-size: 15px;
+        line-height: 1.4;
+        margin: 0 0 40px;
+        text-align:left;
+    }
+
+    .membership-content a{
+        display:block;
+        font-size:15px;;
+        width:100%;
+        height:auto;
+        text-align:center;
+    }
+
+
+
+    ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap:20px;
+    }
+
+    /* Footer */
+
+    .footer{
+        width:100%;
+        height:auto;
+        position:absolute;
+    }
+
+    .footer-header{
+        display:flex;
+        
+    }
+    .footer-header img{
+        width:30px;
+        height:30px;
+    }
+
+    .footer-header h3{
+        font-size:20px;
+        font-weight:200;
+    }
+    .footer-container{
+        display:flex;
+        flex-direction: column;
+    }
+    .footer-column{
+        display:flex;
+        flex-direction: column;
+
+    }
+    .newsletter{
+        position:relative; 
+        top:0px;
+        right:30px;
+    }
+    .footer-bottom{
+        display:flex;
+        flex-direction: column;
+        gap:50px;
+        position:relative;
+        left:20px;
+    }
+}
+
+/* Mobile: Below 767px */
+@media (max-width: 767px) {
+
+    body{
+        width:100%;
+        height:auto;
+        padding:0;
+        margin:0;
+    }
+    .announcment{
+        text-align:center;
+    }
+    .announcment p{
+        text-align:center;
+        font-size:12px;
+        font-weight:50;
+    }
+    .announcment button{
+        font-weight:50;
+    }
+    .navbar button{
+        position:relative;
+        right:60px;
+        size:1;  
+        visibility: visible;   
+    }
+    .menu-bar {
+        display: none;
+        visibility: visible;
+    }
+
+    .menu-bar.menu-open {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 84px;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+        background-color: white;
+        z-index: 1;
+    }
+    .bottle-icon{
+        position:relative;
+        right:450px;
+    }
+    .menu-icon{
+        position:relative;
+        left:50px;
+    }
+    .hero-section-img{
+        object-fit: cover;
+        width:100%;
+        height:250px;
+        margin-bottom:50px;
+    }
+    .hero-section{
+        width:100%;
+        height:auto;
+    }
+    .hero-section h1{
+        font-size:18px;
+        font-weight:400;
+        position:relative;
+        right:50px;
+        margin-bottom:30px;
+    }
+    .hero-section p{
+        font-size:15px;
+        font-weight:250;
+        position:relative;
+        right:50px;
+    }
+    .shop-vinyl{
+        background-color:black;
+        color:white;
+        text-align:center;
+        font-size:15px;
+    }
+
+    .shop-vinyl a {
+        background-color: black;
+        color:white;
+    }
+
+    .new-and-trending{
+        width:100%;
+        height:auto;
+    }
+    .new-and-trending h2{
+        font-size:25px;
+        font-weight:200;
+        margin-bottom:30px;
+    }
+
+    .new-and-trending-items{
+       display: flex;
+       gap: 20px;
+       overflow-x: auto;
+    }
+
+    .trending-add-to-cart{
+        background-color:#222;
+        color:white;
+        width:100%;
+        height:70px;
+    }
+    .miso-caramel{
+        width:100%;
+        height:auto;
+        display:flex;
+        flex-direction:column;
+        gap:0;
+    }
+    .miso-caramel-img{
+        order:-1;
+        width:100%;
+    }
+    .miso-caramel-img img{
+
+        display:block;
+        width:100%;
+        height:auto;
+        object-fit:cover;
+        border-radius:0;
+        aspect-ratio:4/5;
+    }
+    .miso-caramel-box1{
+        width: 100%;
+        padding: 40px 24px 48px;
+        box-sizing: border-box;
+        text-align: left;
+    }
+    .miso-caramel-box1 h2 {
+        font-size: 1.5rem;
+        font-weight: 400;
+        letter-spacing: 0.12em;   
+        line-height: 1.2;
+        margin: 0 0 16px;
+    }
+
+    .miso-caramel-box1 p {
+        font-size: 1rem;
+        line-height: 1.6;
+        margin: 0 0 40px;
+    }
+    .miso-caramel-box1 a{
+        display:block;
+        font-size:1rem;
+        width:100%;
+        height:auto;
+        text-align:center;
+
+    }
+
+    .section4{
+        width:100%;
+        height:auto;
+        display:flex;
+        flex-direction:column;
+        gap:0;
+    }
+    .section4 img{
+        display:block;
+        width:100%;
+        height:auto;
+        object-fit:cover;
+        aspect-ratio: 4/5;
+        border-radius: 0;
+    }
+    .fall-rituals{
+        width: 100%;
+        padding: 40px 24px 48px;
+        box-sizing: border-box;
+        text-align: left;
+    }
+    .fall-rituals h2{
+        font-size: 1.5rem;
+        font-weight: 400;
+        letter-spacing: 0.12em;   
+        line-height: 1.2;
+        margin: 0 0 16px;
+    }
+    .fall-rituals p{
+        font-size: 1rem;
+        line-height: 1.6;
+        margin: 0 0 40px;
+    }
+    .fall-rituals a{
+        display:block;
+        font-size:1rem;
+        width:100%;
+        height:auto;
+        text-align:center;
+    }
+
+    .section6{
+        width:100%;
+        height:auto;
+        display:flex;
+        flex-direction:column;
+        gap:0;
+    }
+
+    .section6 img{
+        display:block;
+        width:100%;
+        height:auto;
+        object-fit:cover;
+        aspect-ratio: 5/4;
+        border-radius: 0;
+    }
+    .membership-content{
+        width: 100%;
+        padding: 40px 24px 48px;
+        box-sizing: border-box;
+        text-align: left;
+    }
+    .eyebrow{
+        font-size: 1rem;
+        line-height: 1.6;
+        margin: 0 0 40px;
+        text-align:center;
+    }
+    .membership-content h2{
+        font-size: 1.5rem;
+        font-weight: 400;
+        letter-spacing: 0.12em;  
+        line-height: 1.2;
+        margin: 0 0 16px;
+    }
+
+    .membership-content p{
+        font-size: 1rem;
+        line-height: 1.6;
+        margin: 0 0 40px;
+        text-align:left;
+    }
+
+    .membership-content a{
+        display:block;
+        font-size:1rem;
+        width:100%;
+        height:auto;
+        text-align:center;
+    }
+    .customer-reviews{
+        width:100%;
+        height: auto;
+        gap:10px;
+    }
+    .reviews-heading h2{
+        font-size: 1.5rem;
+        font-weight: 400;
+        letter-spacing: 0.12em;   
+        line-height: 1.2;
+        margin: 0 0 16px;
+    }
+    .reviews-list{
+        display:flex;
+        gap:20px;
+        overflow-x: auto;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        gap:20px;
+    }
+    .review-card{
+        flex:0 0 250px;
+    }
+
+    .footer{
+        display:flex;
+        flex-direction: column;
+        width:100%;
+        height:auto;
+        gap:0;
+        text-align:left;
+        align-items: left;
+    }
+    .footer-header{
+        align-items:left;
+        position:relative;
+        right:40px;
+    }
+    .footer-header h3{
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 1.2;
+        margin: 0 0 16px;
+    }
+    .footer-container{
+        display:flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    .footer-column h3{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.2;
+        margin: 0 0 16px;
+    }
+    .footer-column a{
+        font-size:12px;
+    }
+    .newsletter{
+        width:100%;
+        height:auto;
+    }
+    .newsletter h3{
+        font-size:15px;
+        font-weight:100;
+        line-height:1.2;
+    }
+    .newsletter p{
+        font-size:12px;
+    }
+    .privacy{
+        font-size:15px;
+    }
+    .social-links{
+        display:flex;
+        flex-direction: row;
+        font-size:12px;
+        padding-top:20px;
+        position:relative;
+        left:0;
+        top:0;
+    }
+    .footer-bottom{
+        display:flex;
+        flex-direction: column;
+        gap:20px;
+        padding-left:20px;
+    }
+    .footer-bottom a{
+        text-decoration: none;
+        font-size:12px;
+        font-weight:100;
+    }
+    .footer-bottom span{
+        font-size:12px;
+        font-weight:100;
+        padding-top:10px;
+    }
+
+}
